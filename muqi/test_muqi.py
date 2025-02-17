@@ -1,9 +1,9 @@
 import pandas as pd
-from langchain_community.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from helper_func_muqi import construct_prompt, invoke_llm
 
 # Replace 'education.csv' with the path to your .csv file
-file_path = "education_muqi.csv"
+file_path = "education_muqitest.csv"
 
 # Step 1: Read the CSV file
 education_data = pd.read_csv(file_path)
