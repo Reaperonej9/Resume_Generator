@@ -1,0 +1,10 @@
+langchain
+llama-cpp-python
+openai
+fastapi
+uvicorn
+sqlalchemy
+chromadb
+tiktoken
+pydantic
+requests
